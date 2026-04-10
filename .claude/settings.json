@@ -1,16 +1,5 @@
 {
-  "skills": {
-    "wiki-ingest": {
-      "description": "소스를 위키에 인제스트 (읽기 → 합성 → 페이지 생성/수정 → 인덱스 업데이트)",
-      "path": ".claude/skills/wiki-ingest.md"
-    },
-    "wiki-query": {
-      "description": "위키에 질문하고 답변 생성 (인덱스 탐색 → 페이지 읽기 → 합성 답변)",
-      "path": ".claude/skills/wiki-query.md"
-    },
-    "wiki-lint": {
-      "description": "위키 건강 점검 (모순, 고아페이지, 누락링크, 인덱스 동기화 등)",
-      "path": ".claude/skills/wiki-lint.md"
-    }
+  "permissions": {
+    "additionalDirectories": []
   }
 }
